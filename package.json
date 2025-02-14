@@ -1,0 +1,28 @@
+{
+  "name": "toposel_assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaysaraswat/Toposel_Assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaysaraswat/Toposel_Assignment/issues"
+  },
+  "homepage": "https://github.com/ajaysaraswat/Toposel_Assignment#readme",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
