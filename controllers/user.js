@@ -65,11 +65,8 @@ const getallApiEndpoints = (req, res) => {
     message: "this is the api endpoints for checking the web app",
     "Register the user": "/register",
     "login the user": "/login",
-    "create the resource": "/create",
-    "get all resources": "/all",
-    "get the resource by Id": "/byId/:id",
-    "update the resource": "/update/:id",
-    "Delete the resource": "/delete/:id",
+    "get the user by username": "/searchbyusername/:username",
+    "get the user by username": "/searchbyemail/:email",
     logout: "/logout",
   });
 };
